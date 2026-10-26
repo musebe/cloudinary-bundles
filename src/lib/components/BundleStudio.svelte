@@ -14,11 +14,16 @@
 	} from '@lucide/svelte';
 	import type { StudioData } from '#lib/bundles/view.ts';
 	import { resolve } from '$app/paths';
+	import { onMount } from 'svelte';
 	let { data }: { data: StudioData } = $props();
 	let selectedId = $state('camera-only');
 	let selected = $derived(data.bundles.find((bundle) => bundle.id === selectedId)!);
 	let issues = $state<{ code: string; message: string }[]>([]);
 	let checking = $state(false);
+	let hydrated = $state(false);
+	onMount(() => {
+		hydrated = true;
+	});
 	let checked = $state(false);
 	let failure = $state('');
 	let imageFailed = $state(false);
@@ -162,6 +167,7 @@
 							type="button"
 							class:selected={selected.id === bundle.id}
 							aria-pressed={selected.id === bundle.id}
+							disabled={!hydrated}
 							onclick={() => selectBundle(bundle.id)}
 							><span class="option-number">0{index + 1}</span><span
 								><strong>{bundle.label}</strong><small
@@ -211,9 +217,12 @@
 				<button
 					class="button secondary"
 					onclick={() => checkRecipe('extra-item')}
-					disabled={checking}>Try an incorrect recipe <ChevronRight size={16} /></button
-				><button class="button text-button" onclick={() => checkRecipe('valid')} disabled={checking}
-					><RefreshCw size={15} /> Reset to current recipe</button
+					disabled={checking || !hydrated}
+					>Try an incorrect recipe <ChevronRight size={16} /></button
+				><button
+					class="button text-button"
+					onclick={() => checkRecipe('valid')}
+					disabled={checking || !hydrated}><RefreshCw size={15} /> Reset to current recipe</button
 				>
 			</div>
 			<div

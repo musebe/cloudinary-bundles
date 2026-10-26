@@ -38,7 +38,9 @@
 
 ## Code and implementation notes
 
-No public repository or deployment yet. Local project: `cloudinary-bundles`. Main modules: catalog, policy, benchmark, registry, composition, and SvelteKit export route. See `build-log.md` for verified tests. Human review establishes photo identity; logical checks cannot correct mislabeled images. Saved outputs avoid new Cloudinary requests for visitors. Educational examples are public, not access-controlled.
+[Live demo](https://cloudinary-bundles.vercel.app/) · [Project docs](https://cloudinary-bundles.vercel.app/docs) · [GitHub repository](https://github.com/musebe/cloudinary-bundles) · [30-case report](https://cloudinary-bundles.vercel.app/api/benchmark)
+
+Local project: `cloudinary-bundles`. Main modules: catalog, policy, benchmark, registry, composition, and SvelteKit export route. See `build-log.md` for verified tests. Human review establishes photo identity; logical checks cannot correct mislabeled images. Saved outputs avoid new Cloudinary requests for visitors. Educational examples are public, not access-controlled.
 
 ## Keyword and metadata table
 
@@ -54,7 +56,7 @@ No public repository or deployment yet. Local project: `cloudinary-bundles`. Mai
 
 **Primary sources/internal links:** Above; verify canonical overlay/SvelteKit Blog links when drafting. **Direct-answer questions:** How do images follow SKU changes? What blocks incorrect recipes? Can checks identify a wrongly photographed item? Are explainers feed-compliant?
 
-**Media/accessibility:** Three package states, manifest-to-image diagram, allowed/blocked example; HTML contents, alt text, keyboard controls, source credits. **Structured-data plan:** TechArticle where supported, matching the eventual visible tutorial. No rich-result or AI-citation promises. **Publication gate:** Not publish-ready; article drafting, evidence audit, and public repository/demo remain outstanding.
+**Media/accessibility:** Three package states, manifest-to-image diagram, allowed/blocked example; HTML contents, alt text, keyboard controls, source credits. **Structured-data plan:** TechArticle where supported, matching the eventual visible tutorial. No rich-result or AI-citation promises. **Publication gate:** Public repository and demo are verified. Article drafting and the editorial evidence audit remain outstanding; the article is not publish-ready.
 
 ## Editorial and design messages
 

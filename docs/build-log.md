@@ -36,7 +36,7 @@
 - Fixed a request-stream cancellation causing a socket reset before the HTTP 413 response. The oversized-request test now passes.
 - Fixed the font package entry points and switched to locally bundled fonts. Final screenshots were inspected on desktop and mobile.
 - Local homepage returns HTTP 200; `/api/health` reports three saved outputs, 30 contract cases, and zero failed cases. `.env.local` is ignored by Git.
-- Local demo runs at `http://localhost:5178`. No GitHub repository or Vercel deployment has been created for this project yet.
+- Local demo runs at `http://localhost:5178`. Public deployment was completed in the later checkpoint below.
 - A final cold-load check against the development server found that a click before hydration could be lost. Interactive buttons now stay disabled until handlers are mounted. Verified package switching against the running development server with no browser errors.
 
 ## 2026-10-26: deployment preparation
@@ -44,3 +44,12 @@
 - Copied only the three Cloudinary credentials from the existing Product Studio environment into ignored `.env.local`, normalizing its Nuxt variable names. No credential values were printed or committed; the destination is permission-restricted to its owner.
 - The copied cloud and the pinned public fixture registry are different environments. Saved examples remain unchanged; production does not need these management credentials.
 - Pinned Node.js 24 and added an explicit Vercel upload ignore file, excluding secrets, local caches, and the full-size source photographs. GitHub retains licensed originals and credits.
+
+## 2026-10-26: public deployment
+
+- Created and pushed [musebe/cloudinary-bundles](https://github.com/musebe/cloudinary-bundles), and connected it to the Vercel project for Git-based deployments.
+- Deployed [Bundle Studio](https://cloudinary-bundles.vercel.app/) and its [project docs](https://cloudinary-bundles.vercel.app/docs). Vercel compiled the SvelteKit application successfully with Node.js 24.
+- Confirmed the copied Cloudinary credentials authenticate, remain Git-ignored, and are absent from Git history. Deployment upload inspection excludes `.env.local`; no application environment variables are configured in Vercel because the saved demo does not need them.
+- Live checks: homepage and docs return HTTP 200; health reports three saved outputs and zero failed cases; the executable report passes 30/30 logical checks.
+- All three production export routes return WebP attachments with the expected byte lengths and SHA-256 checksums. Matching manifests load successfully, valid recipes pass, and incorrect recipes fail. Malformed, oversized, and unknown API inputs return the expected errors.
+- Production browser checks pass for all package switches, the two-card Creator Kit, blocked export and reset, a successful download, and five attribution links. The 390px layout has no horizontal overflow, no browser errors occurred, and no Cloudinary request was made during the public demo checks.

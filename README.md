@@ -4,6 +4,8 @@ SKU-specific product bundle images with SvelteKit and Cloudinary. Switch package
 
 The project includes three real Cloudinary-rendered examples. They load immediately without API credentials, new uploads, or image generation.
 
+[Live demo](https://cloudinary-bundles.vercel.app/) · [Project docs](https://cloudinary-bundles.vercel.app/docs) · [GitHub](https://github.com/musebe/cloudinary-bundles)
+
 ## Run locally
 
 Use Node.js 24 and pnpm 10. The same Node version is pinned for Vercel.

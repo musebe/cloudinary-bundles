@@ -25,13 +25,13 @@ Core image transformations, storage, and delivery consume normal Cloudinary quot
 
 ## Checkpoints
 
-| Stage | Deliverable | Validation |
-| --- | --- | --- |
-| 1. Foundation | New isolated project, environment template, build notes | Install, type-check, scaffold build, Git commit |
-| 2. Bundle contract | Catalog, strict recipe validation, 30 labeled cases | Unit tests, fail-closed mutations, Git commit |
-| 3. Media | Licensed component photos, project-scoped Cloudinary assets, three compositions | Asset readback, delivered dimensions, provenance records, Git commit |
-| 4. Demo | Bundle selector, contents, optional extras, export, broken fixture, compact docs | Desktop/mobile browser tests, keyboard checks, Git commit |
-| 5. Handoff | Clear README, build log, reproducible benchmark report | Lint, type-check, production build, tests, Git commit |
+| Stage              | Deliverable                                                                      | Validation                                                           |
+| ------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| 1. Foundation      | New isolated project, environment template, build notes                          | Install, type-check, scaffold build, Git commit                      |
+| 2. Bundle contract | Catalog, strict recipe validation, 30 labeled cases                              | Unit tests, fail-closed mutations, Git commit                        |
+| 3. Media           | Licensed component photos, project-scoped Cloudinary assets, three compositions  | Asset readback, delivered dimensions, provenance records, Git commit |
+| 4. Demo            | Bundle selector, contents, optional extras, export, broken fixture, compact docs | Desktop/mobile browser tests, keyboard checks, Git commit            |
+| 5. Handoff         | Clear README, build log, reproducible benchmark report                           | Lint, type-check, production build, tests, Git commit                |
 
 Deployment and the full article are later tasks, after the demo is reviewed.
 

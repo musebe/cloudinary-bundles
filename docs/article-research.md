@@ -6,7 +6,7 @@ Verified October 26, 2026. This document supports the tutorial; it is not part o
 
 The [Google article brief](https://docs.google.com/document/d/1DyMj3qbL9TpEFjtbApiPkoFB_GyYutZWHWKNFnQEU7M/edit) was read through the connected Google Docs tools. Its title is **Product Bundle Images With SvelteKit and Cloudinary: Show What’s Included**. Its objective is SKU-specific images showing included items, quantities, and optional accessories. The implementation follows that deterministic composition scope, not the superseded Jev proposal.
 
-The Google brief currently has a blank deadline. The local handoff retains the previously recorded October 11 deadline as historical context, not a new publication commitment.
+The Google brief's native date chip records October 11, 2026. The plain-text reader omits that chip's value; full native-document readback confirmed it. The local handoff retains that date as historical context, not a new publication commitment.
 
 ## Primary sources and claim boundaries
 
@@ -43,3 +43,26 @@ The export route hashes saved bytes, not pixels or provenance authenticity. Publ
 The canvas URL uses a version, but component overlays reference public IDs without their recorded versions. Saved files preserve the shipped result; regenerating after overwriting a component public ID can change pixels. Production adaptation should use reviewed, revision-specific public IDs.
 
 Source photos require human review and attribution. The camera has a fitted wrist loop; the separate strap is a neck strap. The tripod photograph includes studio surroundings. The fictional kits establish neither accessory compatibility nor physical scale.
+
+## Editorial audit
+
+The technical review found no blocking implementation mismatch. The editorial review confirmed brief alignment, answer-first structure, descriptive headings, no deployment section, and FAQs after the conclusion. Refinements defined the recipe at first use, linked the actual canvas, and described saved outputs as avoiding Cloudinary requests rather than implying uncached rendering on every selection.
+
+| Area                            |      Score | Basis                                                                                                                          |
+| ------------------------------- | ---------: | ------------------------------------------------------------------------------------------------------------------------------ |
+| Reader value and originality    |      18/20 | Specific included-accessory problem; adds a tested contents-to-image contract beyond adjacent overlay tutorials                |
+| Technical accuracy and evidence |      24/25 | Code-level review, three delivered composites, reproducible cases, and production export checks; human review limits disclosed |
+| Search intent and structure     |      14/15 | Matching title and introduction, local implementation, source links, proof tables, conclusion, FAQs                            |
+| Direct answers                  |       9/10 | Six practical questions plus a defined recipe and direct opening                                                               |
+| Sources and entity clarity      |      14/15 | Primary product/framework guidance, dated original usability research, and attributable source media                           |
+| Technical SEO and accessibility |       8/10 | Metadata, captioned media, HTML-ready tables, and schema guidance; final publisher rendering/canonical/schema still to verify  |
+| Editorial clarity               |        5/5 | Short code excerpts, no numbered step headings or deployment content, limitations preserved                                    |
+| **Total**                       | **92/100** | **Ready for editorial review, not a claim of final publication approval**                                                      |
+
+Recommend Article or BlogPosting structured data for the visible tutorial, following [Google's Article guidance](https://developers.google.com/search/docs/appearance/structured-data/article). Do not promise FAQ rich results: [Google's documentation updates](https://developers.google.com/search/updates#june_2026) record their removal in 2026. Validate actual publisher markup, byline, canonical URL, image crops, and page rendering before publication. The repository Markdown itself does not emit structured data.
+
+## Article delivery
+
+The main article is literal Markdown in the specified Google Doc, matching the earlier Product Studio and Media Pipeline documents. The appended Article Brief remains natively formatted, with its Heading 1 in the outline and a two-page rendered layout. Existing brief formatting is preserved when replacing the article portion.
+
+The Creator Kit figure was uploaded as an unchanged WebP snapshot to Cloudinary under `bundle-studio/v1/article/creator-kit-2026-10-26`, after confirming the target was absent. Asset ID: `b7e2e84bd30ca6dedb3bf28dad25ed8f`. Readback confirmed 1200 × 1000 and 85,080 bytes. The Markdown embeds the returned HTTPS delivery URL and retains attribution. No source asset was overwritten and no new inference was run.

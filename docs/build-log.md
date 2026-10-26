@@ -53,3 +53,12 @@
 - Live checks: homepage and docs return HTTP 200; health reports three saved outputs and zero failed cases; the executable report passes 30/30 logical checks.
 - All three production export routes return WebP attachments with the expected byte lengths and SHA-256 checksums. Matching manifests load successfully, valid recipes pass, and incorrect recipes fail. Malformed, oversized, and unknown API inputs return the expected errors.
 - Production browser checks pass for all package switches, the two-card Creator Kit, blocked export and reset, a successful download, and five attribution links. The 390px layout has no horizontal overflow, no browser errors occurred, and no Cloudinary request was made during the public demo checks.
+
+## 2026-10-26: article and editorial handoff
+
+- Wrote `docs/article.md` from the approved Product Bundle Images brief and verified implementation. The tutorial uses descriptive headings, omits deployment, and ends with FAQs after the conclusion.
+- Checked code excerpts, recipe scenarios, output byte counts, and limitations against the repository. The deterministic Markdown audit reports zero errors and zero warnings; the source-link check passed all 32 article URLs.
+- Added primary-source research, implementation caveats, and a 92/100 editorial-readiness scorecard in `docs/article-research.md`. The article is ready for editorial review, with final publisher metadata, design, and rendering checks still outstanding.
+- Uploaded the unchanged Creator Kit figure to a new Cloudinary article asset, read it back, and confirmed that the delivered checksum matches the saved demo output. No source asset was replaced.
+- Replaced the Google Doc's old brief with the article and appended its matching Article Brief. After comparing the previous Product Studio and Media Pipeline documents, stored the main article as literal Markdown and preserved the appended brief's native formatting and outline heading.
+- Final document readback confirms the main text exactly matches the local Markdown, including code fences and the Cloudinary image embed. The appended brief's content and formatting remain unchanged; its earlier PDF layout check confirmed two pages.

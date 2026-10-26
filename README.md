@@ -94,6 +94,8 @@ The camera photo includes a fitted wrist loop; the separate strap is a neck stra
 
 ## Build documentation
 
+- [Article in Markdown](docs/article.md)
+- [Article research and evidence](docs/article-research.md)
 - [Build brief](docs/build-brief.md)
 - [Build log](docs/build-log.md)
 - [Cloudinary workflow](docs/cloudinary-workflow.md)

@@ -65,11 +65,19 @@ const scenarios = [
 export function runBenchmark() {
 	const results = bundles.flatMap((bundle) =>
 		scenarios.map((scenario, index) => {
-			const recipe = scenario.mutate(createRecipe(bundle));
+			const baseRecipe = createRecipe(bundle);
+			const optional = bundle.optional[0];
+			const isExtraItem = index === 1 && optional !== undefined;
+			const recipe = isExtraItem
+				? { ...baseRecipe, items: [...baseRecipe.items, { componentId: optional, quantity: 1 }] }
+				: scenario.mutate(baseRecipe);
 			const result = validateRecipe(bundle, recipe);
 			// The one-item case hits the nonempty schema boundary before membership validation.
-			const expectedCode =
-				index === 2 && bundle.contents.length === 1 ? 'invalid_recipe' : scenario.code;
+			const expectedCode = isExtraItem
+				? 'extra_component'
+				: index === 2 && bundle.contents.length === 1
+					? 'invalid_recipe'
+					: scenario.code;
 			const expectedValid = expectedCode === null;
 			const passed =
 				result.valid === expectedValid &&
@@ -77,7 +85,7 @@ export function runBenchmark() {
 			return {
 				id: `${bundle.id}-${index + 1}`,
 				bundleId: bundle.id,
-				scenario: scenario.name,
+				scenario: isExtraItem ? 'Optional accessory incorrectly included' : scenario.name,
 				expectedValid,
 				expectedCode,
 				actualValid: result.valid,

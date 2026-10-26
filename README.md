@@ -6,7 +6,7 @@ The project includes three real Cloudinary-rendered examples. They load immediat
 
 ## Run locally
 
-Use Node.js 22.12 or later and pnpm 10. Verified with Node.js 24.
+Use Node.js 24 and pnpm 10. The same Node version is pinned for Vercel.
 
 ```bash
 pnpm install
@@ -71,6 +71,8 @@ The 30-case report tests declared package data, not image-recognition accuracy. 
 ## Cloudinary and environment variables
 
 No environment variables are required for included examples. `.env.example` lists optional server-only credentials for future operator provisioning. Never expose secrets through public variables or commit `.env.local`.
+
+The saved examples use the public asset registry in `src/lib/media/registry.ts`. Copying credentials from another Cloudinary product environment does not move or change those examples. Do not assume credentials for one cloud can manage another cloud’s assets.
 
 Recreate three fixed compositions from the public registry:
 

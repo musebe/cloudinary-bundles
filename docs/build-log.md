@@ -38,3 +38,9 @@
 - Local homepage returns HTTP 200; `/api/health` reports three saved outputs, 30 contract cases, and zero failed cases. `.env.local` is ignored by Git.
 - Local demo runs at `http://localhost:5178`. No GitHub repository or Vercel deployment has been created for this project yet.
 - A final cold-load check against the development server found that a click before hydration could be lost. Interactive buttons now stay disabled until handlers are mounted. Verified package switching against the running development server with no browser errors.
+
+## 2026-10-26: deployment preparation
+
+- Copied only the three Cloudinary credentials from the existing Product Studio environment into ignored `.env.local`, normalizing its Nuxt variable names. No credential values were printed or committed; the destination is permission-restricted to its owner.
+- The copied cloud and the pinned public fixture registry are different environments. Saved examples remain unchanged; production does not need these management credentials.
+- Pinned Node.js 24 and added an explicit Vercel upload ignore file, excluding secrets, local caches, and the full-size source photographs. GitHub retains licensed originals and credits.

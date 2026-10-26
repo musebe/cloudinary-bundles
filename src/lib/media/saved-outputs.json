@@ -1,0 +1,95 @@
+[
+	{
+		"bundleId": "camera-only",
+		"sku": "DEMO-CAM-01",
+		"bundleVersion": "1",
+		"localPath": "/demo/outputs/camera-only.webp",
+		"cloudinaryUrl": "https://res.cloudinary.com/musimbi/image/upload/c_fit,h_1000,w_1200/co_rgb:222222,l_text:Arial_38:Camera%20Only%20%7C%20What's%20included/fl_layer_apply,g_north_west,x_50,y_45/co_rgb:222222,l_text:Arial_22:DEMO-CAM-01%20-%20revision%201%20-%201%20items/fl_layer_apply,g_north_west,x_50,y_105/l_bundle-studio:v1:components:camera/b_white,c_pad,h_570,w_900/fl_layer_apply,g_north_west,x_150,y_180/co_rgb:222222,l_text:Arial_28:Compact%20camera/fl_layer_apply,g_north_west,x_150,y_768/co_rgb:222222,l_text:Arial_19:Illustrative%20bundle.%20Not%20a%20real%20offer%20or%20a%20compatibility%20claim./fl_layer_apply,g_north_west,x_50,y_905/co_rgb:222222,l_text:Arial_19:Photo%20credits%20in%20project%20docs%20%7C%20Composite%3A%20CC%20BY-SA%204.0/fl_layer_apply,g_north_west,x_50,y_940/f_webp/q_85/v1793004358/bundle-studio/v1/canvas?_a=BAMAROcg0",
+		"transformation": "c_fit,h_1000,w_1200/co_rgb:222222,l_text:Arial_38:Camera%20Only%20%7C%20What's%20included/fl_layer_apply,g_north_west,x_50,y_45/co_rgb:222222,l_text:Arial_22:DEMO-CAM-01%20-%20revision%201%20-%201%20items/fl_layer_apply,g_north_west,x_50,y_105/l_bundle-studio:v1:components:camera/b_white,c_pad,h_570,w_900/fl_layer_apply,g_north_west,x_150,y_180/co_rgb:222222,l_text:Arial_28:Compact%20camera/fl_layer_apply,g_north_west,x_150,y_768/co_rgb:222222,l_text:Arial_19:Illustrative%20bundle.%20Not%20a%20real%20offer%20or%20a%20compatibility%20claim./fl_layer_apply,g_north_west,x_50,y_905/co_rgb:222222,l_text:Arial_19:Photo%20credits%20in%20project%20docs%20%7C%20Composite%3A%20CC%20BY-SA%204.0/fl_layer_apply,g_north_west,x_50,y_940/f_webp/q_85",
+		"recipe": {
+			"sku": "DEMO-CAM-01",
+			"bundleVersion": "1",
+			"items": [
+				{
+					"componentId": "camera",
+					"quantity": 1
+				}
+			]
+		},
+		"width": 1200,
+		"height": 1000,
+		"bytes": 39908,
+		"sha256": "9106bd4637c2d887d7341cc4197adb9f2bb9ce85f7d08140fc48f88e26537d0e",
+		"verifiedAt": "2026-10-26T08:50:00.752Z"
+	},
+	{
+		"bundleId": "starter-kit",
+		"sku": "DEMO-START-01",
+		"bundleVersion": "1",
+		"localPath": "/demo/outputs/starter-kit.webp",
+		"cloudinaryUrl": "https://res.cloudinary.com/musimbi/image/upload/c_fit,h_1000,w_1200/co_rgb:222222,l_text:Arial_38:Starter%20Kit%20%7C%20What's%20included/fl_layer_apply,g_north_west,x_50,y_45/co_rgb:222222,l_text:Arial_22:DEMO-START-01%20-%20revision%201%20-%203%20items/fl_layer_apply,g_north_west,x_50,y_105/l_bundle-studio:v1:components:camera/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_50,y_180/co_rgb:222222,l_text:Arial_22:Compact%20camera/fl_layer_apply,g_north_west,x_50,y_448/l_bundle-studio:v1:components:memory-card/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_430,y_180/co_rgb:222222,l_text:Arial_22:Memory%20card/fl_layer_apply,g_north_west,x_430,y_448/l_bundle-studio:v1:components:strap/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_810,y_180/co_rgb:222222,l_text:Arial_22:Camera%20strap/fl_layer_apply,g_north_west,x_810,y_448/co_rgb:222222,l_text:Arial_19:Illustrative%20bundle.%20Not%20a%20real%20offer%20or%20a%20compatibility%20claim./fl_layer_apply,g_north_west,x_50,y_905/co_rgb:222222,l_text:Arial_19:Photo%20credits%20in%20project%20docs%20%7C%20Composite%3A%20CC%20BY-SA%204.0/fl_layer_apply,g_north_west,x_50,y_940/f_webp/q_85/v1793004358/bundle-studio/v1/canvas?_a=BAMAROcg0",
+		"transformation": "c_fit,h_1000,w_1200/co_rgb:222222,l_text:Arial_38:Starter%20Kit%20%7C%20What's%20included/fl_layer_apply,g_north_west,x_50,y_45/co_rgb:222222,l_text:Arial_22:DEMO-START-01%20-%20revision%201%20-%203%20items/fl_layer_apply,g_north_west,x_50,y_105/l_bundle-studio:v1:components:camera/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_50,y_180/co_rgb:222222,l_text:Arial_22:Compact%20camera/fl_layer_apply,g_north_west,x_50,y_448/l_bundle-studio:v1:components:memory-card/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_430,y_180/co_rgb:222222,l_text:Arial_22:Memory%20card/fl_layer_apply,g_north_west,x_430,y_448/l_bundle-studio:v1:components:strap/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_810,y_180/co_rgb:222222,l_text:Arial_22:Camera%20strap/fl_layer_apply,g_north_west,x_810,y_448/co_rgb:222222,l_text:Arial_19:Illustrative%20bundle.%20Not%20a%20real%20offer%20or%20a%20compatibility%20claim./fl_layer_apply,g_north_west,x_50,y_905/co_rgb:222222,l_text:Arial_19:Photo%20credits%20in%20project%20docs%20%7C%20Composite%3A%20CC%20BY-SA%204.0/fl_layer_apply,g_north_west,x_50,y_940/f_webp/q_85",
+		"recipe": {
+			"sku": "DEMO-START-01",
+			"bundleVersion": "1",
+			"items": [
+				{
+					"componentId": "camera",
+					"quantity": 1
+				},
+				{
+					"componentId": "memory-card",
+					"quantity": 1
+				},
+				{
+					"componentId": "strap",
+					"quantity": 1
+				}
+			]
+		},
+		"width": 1200,
+		"height": 1000,
+		"bytes": 47638,
+		"sha256": "8640b1276365a42fd174379e41509b730ec0116b90caf4e123d37f4a6a6af55b",
+		"verifiedAt": "2026-10-26T08:50:03.202Z"
+	},
+	{
+		"bundleId": "creator-kit",
+		"sku": "DEMO-CREATE-01",
+		"bundleVersion": "1",
+		"localPath": "/demo/outputs/creator-kit.webp",
+		"cloudinaryUrl": "https://res.cloudinary.com/musimbi/image/upload/c_fit,h_1000,w_1200/co_rgb:222222,l_text:Arial_38:Creator%20Kit%20%7C%20What's%20included/fl_layer_apply,g_north_west,x_50,y_45/co_rgb:222222,l_text:Arial_22:DEMO-CREATE-01%20-%20revision%201%20-%206%20items/fl_layer_apply,g_north_west,x_50,y_105/l_bundle-studio:v1:components:camera/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_50,y_180/co_rgb:222222,l_text:Arial_22:Compact%20camera/fl_layer_apply,g_north_west,x_50,y_448/l_bundle-studio:v1:components:memory-card/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_430,y_180/co_rgb:222222,l_text:Arial_22:Memory%20card/fl_layer_apply,g_north_west,x_430,y_448/l_bundle-studio:v1:components:memory-card/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_810,y_180/co_rgb:222222,l_text:Arial_22:Memory%20card/fl_layer_apply,g_north_west,x_810,y_448/l_bundle-studio:v1:components:strap/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_50,y_520/co_rgb:222222,l_text:Arial_22:Camera%20strap/fl_layer_apply,g_north_west,x_50,y_788/l_bundle-studio:v1:components:tripod/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_430,y_520/co_rgb:222222,l_text:Arial_22:Tripod/fl_layer_apply,g_north_west,x_430,y_788/l_bundle-studio:v1:components:bag/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_810,y_520/co_rgb:222222,l_text:Arial_22:Camera%20case/fl_layer_apply,g_north_west,x_810,y_788/co_rgb:222222,l_text:Arial_19:Illustrative%20bundle.%20Not%20a%20real%20offer%20or%20a%20compatibility%20claim./fl_layer_apply,g_north_west,x_50,y_905/co_rgb:222222,l_text:Arial_19:Photo%20credits%20in%20project%20docs%20%7C%20Composite%3A%20CC%20BY-SA%204.0/fl_layer_apply,g_north_west,x_50,y_940/f_webp/q_85/v1793004358/bundle-studio/v1/canvas?_a=BAMAROcg0",
+		"transformation": "c_fit,h_1000,w_1200/co_rgb:222222,l_text:Arial_38:Creator%20Kit%20%7C%20What's%20included/fl_layer_apply,g_north_west,x_50,y_45/co_rgb:222222,l_text:Arial_22:DEMO-CREATE-01%20-%20revision%201%20-%206%20items/fl_layer_apply,g_north_west,x_50,y_105/l_bundle-studio:v1:components:camera/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_50,y_180/co_rgb:222222,l_text:Arial_22:Compact%20camera/fl_layer_apply,g_north_west,x_50,y_448/l_bundle-studio:v1:components:memory-card/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_430,y_180/co_rgb:222222,l_text:Arial_22:Memory%20card/fl_layer_apply,g_north_west,x_430,y_448/l_bundle-studio:v1:components:memory-card/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_810,y_180/co_rgb:222222,l_text:Arial_22:Memory%20card/fl_layer_apply,g_north_west,x_810,y_448/l_bundle-studio:v1:components:strap/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_50,y_520/co_rgb:222222,l_text:Arial_22:Camera%20strap/fl_layer_apply,g_north_west,x_50,y_788/l_bundle-studio:v1:components:tripod/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_430,y_520/co_rgb:222222,l_text:Arial_22:Tripod/fl_layer_apply,g_north_west,x_430,y_788/l_bundle-studio:v1:components:bag/b_white,c_pad,h_250,w_340/fl_layer_apply,g_north_west,x_810,y_520/co_rgb:222222,l_text:Arial_22:Camera%20case/fl_layer_apply,g_north_west,x_810,y_788/co_rgb:222222,l_text:Arial_19:Illustrative%20bundle.%20Not%20a%20real%20offer%20or%20a%20compatibility%20claim./fl_layer_apply,g_north_west,x_50,y_905/co_rgb:222222,l_text:Arial_19:Photo%20credits%20in%20project%20docs%20%7C%20Composite%3A%20CC%20BY-SA%204.0/fl_layer_apply,g_north_west,x_50,y_940/f_webp/q_85",
+		"recipe": {
+			"sku": "DEMO-CREATE-01",
+			"bundleVersion": "1",
+			"items": [
+				{
+					"componentId": "camera",
+					"quantity": 1
+				},
+				{
+					"componentId": "memory-card",
+					"quantity": 2
+				},
+				{
+					"componentId": "strap",
+					"quantity": 1
+				},
+				{
+					"componentId": "tripod",
+					"quantity": 1
+				},
+				{
+					"componentId": "bag",
+					"quantity": 1
+				}
+			]
+		},
+		"width": 1200,
+		"height": 1000,
+		"bytes": 85080,
+		"sha256": "50ac4593903cb5a0ec3528231960478659908024b67aa409ca3db1df91d8b51b",
+		"verifiedAt": "2026-10-26T08:50:06.577Z"
+	}
+]
